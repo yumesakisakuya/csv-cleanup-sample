@@ -1,0 +1,26 @@
+record_id,customer,email,order_date,amount_usd,status
+R001, Avery  Sample ,avery@EXAMPLE.INVALID ,2026-10-01, $25.00 ,PAID
+R002,Briar Sample,briar@EXAMPLE.INVALID,2026/10/02,"$1,200.00",Pending
+R003,Cedar Sample,cedar@example.invalid,15/10/2026,99.5,paid
+R004,Dahlia Sample,dahlia@example.invalid,10/20/2026,$ 45.00,PAID
+R005,Elm Sample,elm@example.invalid,10/11/2026,80.00,paid
+R006,Fern Sample, N/A ,2026-10-06,20,pending
+R007,Grove Sample,grove@example.invalid,2026-10-07,,paid
+R008,Avery Sample,avery@example.invalid,2026/10/01,25,paid
+R009, Briar Sample ,briar@example.invalid,2026-10-02,1200, pending 
+R010,Hazel Sample,hazel@example.invalid,NULL,18.00,paid
+R011,Iris Sample,iris@example.invalid,2026-02-30,32.00,paid
+R012,Juniper Sample,juniper@example.invalid,2026-10-12,"1.234,50",paid
+R013,Kite Sample,kite@example.invalid,2026-10-13,0,paid
+R014,Larch Sample,larch@example.invalid,2026-10-14,-25,refunded
+R015,Moss Sample,moss@example.invalid,2026-10-15,41.00,awaiting
+R016,Nova   Sample,nova@EXAMPLE.INVALID,2026-10-16,12.4,paid
+R017,Oak Sample,oak@@example.invalid,2026-10-17,24.00,paid
+R018,Pine Sample,pine@example.invalid,2026-10-18,NaN,paid
+R019,Reed Sample,   ,2026-10-19,16.00,pending
+R020,,sage@example.invalid,2026-10-20,50.00,paid
+R021,Thyme Sample,thyme@example.invalid,2026/10/21,15.00,Canceled
+R022,Elm Sample,elm@example.invalid,10/11/2026,80.00,paid
+R023,Vale Sample,vale@example.invalid,2026/10/23,27.00,paid
+R024,"Willow
+  Sample",willow@example.invalid,2026-10-24,64.9,paid

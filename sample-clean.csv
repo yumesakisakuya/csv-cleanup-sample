@@ -1,0 +1,23 @@
+record_id,customer,email,order_date,amount_usd,status,source_ids,source_lines,review_fields
+R001,Avery Sample,avery@example.invalid,2026-10-01,25.00,paid,R001;R008,2;9,
+R002,Briar Sample,briar@example.invalid,2026-10-02,1200.00,pending,R002;R009,3;10,
+R003,Cedar Sample,cedar@example.invalid,2026-10-15,99.50,paid,R003,4,
+R004,Dahlia Sample,dahlia@example.invalid,2026-10-20,45.00,paid,R004,5,
+R005,Elm Sample,elm@example.invalid,10/11/2026,80.00,paid,R005,6,order_date:ambiguous_date
+R006,Fern Sample,,2026-10-06,20.00,pending,R006,7,email:missing_value
+R007,Grove Sample,grove@example.invalid,2026-10-07,,paid,R007,8,amount_usd:missing_value
+R010,Hazel Sample,hazel@example.invalid,,18.00,paid,R010,11,order_date:missing_value
+R011,Iris Sample,iris@example.invalid,2026-02-30,32.00,paid,R011,12,order_date:invalid_date
+R012,Juniper Sample,juniper@example.invalid,2026-10-12,"1.234,50",paid,R012,13,amount_usd:unsupported_amount_format
+R013,Kite Sample,kite@example.invalid,2026-10-13,0.00,paid,R013,14,
+R014,Larch Sample,larch@example.invalid,2026-10-14,-25.00,refunded,R014,15,
+R015,Moss Sample,moss@example.invalid,2026-10-15,41.00,awaiting,R015,16,status:unknown_status
+R016,Nova Sample,nova@example.invalid,2026-10-16,12.40,paid,R016,17,
+R017,Oak Sample,oak@@example.invalid,2026-10-17,24.00,paid,R017,18,email:invalid_email_shape
+R018,Pine Sample,pine@example.invalid,2026-10-18,NaN,paid,R018,19,amount_usd:unsupported_amount_format
+R019,Reed Sample,,2026-10-19,16.00,pending,R019,20,email:missing_value
+R020,,sage@example.invalid,2026-10-20,50.00,paid,R020,21,customer:missing_customer
+R021,Thyme Sample,thyme@example.invalid,2026-10-21,15.00,cancelled,R021,22,
+R022,Elm Sample,elm@example.invalid,10/11/2026,80.00,paid,R022,23,order_date:ambiguous_date
+R023,Vale Sample,vale@example.invalid,2026-10-23,27.00,paid,R023,24,
+R024,Willow Sample,willow@example.invalid,2026-10-24,64.90,paid,R024,25,
